@@ -268,7 +268,18 @@
 				margin-bottom: 1.5em;
 
 				img {
-					width: 78px;
+					width: 120px;
+				}
+			}
+		}
+
+		&.experience-image-list {
+			li {
+				overflow: hidden;
+				margin-bottom: 1.5em;
+
+				img {
+					width: 75px;
 				}
 			}
 		}
