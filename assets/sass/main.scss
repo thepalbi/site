@@ -282,6 +282,10 @@
 				img {
 					width: 75px;
 				}
+
+				.subheading {
+					margin-bottom: 10px;
+				}
 			}
 		}
 
@@ -702,6 +706,15 @@
 	.news-list {
 		b {
 			font-weight: bold;
+		}
+	}
+
+	.project-artifacts {
+		a,small { 
+			display: inline-block;
+		}
+		a {
+			margin-top: 5px;
 		}
 	}
 

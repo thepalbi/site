@@ -1142,6 +1142,9 @@ ul.experience-image-list li {
 ul.experience-image-list li img {
   width: 75px;
 }
+ul.experience-image-list li .subheading {
+  margin-bottom: 10px;
+}
 ul.big-image-list li {
   overflow: hidden;
   margin-bottom: 2em;
@@ -1527,6 +1530,13 @@ ul.link-list li:first-child {
 
 .news-list b {
   font-weight: bold;
+}
+
+.project-artifacts a, .project-artifacts small {
+  display: inline-block;
+}
+.project-artifacts a {
+  margin-top: 5px;
 }
 
 /* Small */
