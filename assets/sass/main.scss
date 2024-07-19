@@ -5,6 +5,7 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*
 	Minimaxing by HTML5 UP
@@ -109,12 +110,12 @@
 	}
 
 	body {
-		font-size: 13.5pt;
-		font-family: sans-serif;
+		font-size: 11pt;
+		// font-family: sans-serif;
 		background-color: #e3e9dc;
-		font-family: 'Ubuntu Condensed', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		color: #878e83;
-		letter-spacing: -1px;
+		// letter-spacing: -1px;
 	}
 
 	h1, h2, h3, h4 {
@@ -123,11 +124,11 @@
 	}
 
 	h1 {
-		text-transform: lowercase;
+		// text-transform: lowercase;
 	}
 
 	h2 {
-		text-transform: lowercase;
+		// text-transform: lowercase;
 		font-size: 1.6em;
 		letter-spacing: -1px;
 		margin-bottom: 1em;
@@ -316,7 +317,7 @@
 		padding: 15px 25px 15px 25px;
 		background-color: #007b9d;
 		border-radius: 10px;
-		text-transform: lowercase;
+		// text-transform: lowercase;
 		text-decoration: none;
 		color: #fff;
 		font-size: 1.2em;
@@ -356,7 +357,7 @@
 			top: 0;
 			color: #fff;
 			font-size: 2.4em;
-			letter-spacing: -2px;
+			letter-spacing: -1px;
 			line-height: 86px;
 
 			a {
@@ -370,9 +371,9 @@
 			right: 40px;
 			top: 1px;
 			line-height: 84px;
-			text-transform: lowercase;
+			// text-transform: lowercase;
 			font-size: 1.3em;
-			letter-spacing: -1px;
+			// letter-spacing: -1px;
 
 			a {
 				display: inline-block;
@@ -689,6 +690,19 @@
 				}
 			}
 
+	}
+
+	.icon-list {
+		a {
+			margin-right: 10px;
+			text-decoration: none;
+		}
+	}
+
+	.news-list {
+		b {
+			font-weight: bold;
+		}
 	}
 
 /* Small */
