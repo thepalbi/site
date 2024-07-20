@@ -1548,6 +1548,16 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+ul.job-projects {
+  margin-bottom: 0;
+}
+ul.job-projects li {
+  list-style-position: inside;
+  list-style-type: disc;
+  line-height: 1.8em;
+  margin-bottom: 1em;
+}
+
 /* Small */
 @media screen and (max-width: 736px) {
   /* Basic */

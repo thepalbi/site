@@ -162,8 +162,22 @@
 									<small>2022 - Present</small>
 									<p>
 										Senior Software Engineer <br />
-										Working in improvement the experience on how to monitor cloud service provider infrastructure.
-										<br />
+										Working on improving the experience on monitoring cloud service provider infrastructure. As part
+										some of the projects developed internally, I workde on big features for some of Grafana's biggest
+										open-source projects, such as Grafana Agent and Grafana Loki.
+
+										<ul class="job-projects">
+											<li>
+												Designed and developed a Write-Ahead log Loki's remote-write component, used both Grafana's logs 
+												tailing agents: Agent and Promtail. This involved first refactoring and rethinking how the log's 
+												remote-write codebase was structured, so that it becase decoupled in pieces, and easily mantainable.
+												After, Prometheus'es Write-Ahead Log implementation was repurposed as a middle component, adding as
+												well a custom tracker to be able to just replay not-sent data. <br />
+												This lead to the agents having better delivery garantuees, since a restart implied received and acknowledged
+												data wouldn't be lost.
+												<a href="https://github.com/search?q=repo%3Agrafana%2Floki+repo%3Agrafana%2Fagent+author%3Athepalbi+WAL+in%3Atitle&type=pullrequests&ref=advsearch">Pull Requests.</a>
+											</li>
+										</ul>
 									</p>
 								</li>
 								<li>
