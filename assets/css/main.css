@@ -1531,6 +1531,9 @@ ul.link-list li:first-child {
 .news-list b {
   font-weight: bold;
 }
+.news-list li {
+  margin-bottom: 10px;
+}
 
 .project-artifacts a, .project-artifacts small {
   display: inline-block;
