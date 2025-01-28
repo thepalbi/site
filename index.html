@@ -71,7 +71,7 @@
 								<h2>About me</h2>
 								<p style="line-height: 2em;">
 									Technology and coding have been my passion since I was young. Currently, I'm working
-									as a Senior Software Engineer II at Grafana Labs. <br />
+									as a Staff Software Engineer at Grafana Labs. <br />
 									I am a team player while also a self-learner, being always open to share my knowledge,
 									and not afraid of asking questions. Always looking for new problems to solve, and challenges
 									to tackle, even if there are risks involved. <br />
@@ -91,7 +91,7 @@
 									<small>2015 - 2023</small>
 									<p>
 										BSc. & MSc. Computer Science<br />
-										GPA: 9,3 / 10 <br />
+										GPA: 9,4 / 10 <br />
 										Worked on my thesis on <a href="https://lafhis.dc.uba.ar/home">LAFHIS</a> (Tools and Foundations
 										Software Engineering Lab), advised by Dr. Diego
 										Garbervetsky.
@@ -105,7 +105,7 @@
 
 							<ul class="experience-image-list">
 								<li>
-									<h4>Improving taint analysis specificacions for Javascript with big code</h4>
+									<h4>Improving taint analysis specifications for Javascript with big code</h4>
 									<div class="subheading">
 										<small>2023 - Advisor: <a href="https://lafhis.dc.uba.ar/~diegog">Dr. Diego
 												Garbervetsky</a></small>
@@ -139,7 +139,7 @@
 										architecture implementing it. Alongside, a full toolchain for writing and compiling programs in an
 										assembly-like language was implemented, with a medium complexity sample program (Simon game).
 
-										The architecture was synthetized and tested on a Xilinx FPGA development board.
+										The architecture was synthesized and tested on a Xilinx FPGA development board.
 									</p>
 									<div class="project-artifacts">
 										<small>Artifacts</small> </br>
@@ -161,28 +161,31 @@
 									<h4>Grafana Labs</h4>
 									<small>2022 - Present</small>
 									<p>
-										Senior Software Engineer <br />
-										Working on improving the experience on monitoring cloud service provider infrastructure. As part
-										some of the projects developed internally, I workde on big features for some of Grafana's biggest
-										open-source projects, such as Grafana Agent and Grafana Loki.
+										Staff Software Engineer <br />
+										Working on improving the monitoring experience of cloud service provider infrastructure.
 
 										<ul class="job-projects">
 											<li>
 												Designed and developed a Write-Ahead log Loki's remote-write component, used both Grafana's logs 
 												tailing agents: Agent and Promtail. This involved first refactoring and rethinking how the log's 
-												remote-write codebase was structured, so that it becase decoupled in pieces, and easily mantainable.
+												remote-write codebase was structured, so that it became decoupled in pieces, and easily maintainable.
 												After, Prometheus'es Write-Ahead Log implementation was repurposed as a middle component, adding as
 												well a custom tracker to be able to just replay not-sent data. <br />
 												This lead to the agents having better delivery garantuees, since a restart implied received and acknowledged
 												data wouldn't be lost.
 												<a href="https://github.com/search?q=repo%3Agrafana%2Floki+repo%3Agrafana%2Fagent+repo%3Agrafana%2Falloy+author%3Athepalbi+%28WAL+OR+loki.write+in%3Atitle%29&type=pullrequests&ref=advsearch&s=created&o=desc">Pull Requests.</a>
 											</li>
+											<li>
+												Designed, built and promoted a service for ingesting logs from AWS CloudWatch, and sending them to Grafana Loki. Scaled up
+												the service from zero to ingesting around 15 TiB of data per month. 
+												<a href="https://grafana.com/docs/grafana-cloud/monitor-infrastructure/monitor-cloud-provider/aws/logs/firehose-logs/">Product docs.</a>
+											</li>
 										</ul>
 									</p>
 								</li>
 								<li>
 									<a href="#"><img src="images/ring-logo.webp" alt="" class="left" /></a>
-									<h4>Ring</h4>
+									<h4>Ring (an Amazon Company)</h4>
 									<small>2020 - 2022</small>
 									<p>
 										Senior Software Engineer <br />
